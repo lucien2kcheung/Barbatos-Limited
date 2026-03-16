@@ -32,7 +32,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src="/Barbatos_logo.jpg" alt="Barbatos Limited" className="h-14 w-auto" />
+            <img src="/transparent-logo.png" alt="Barbatos Limited" className="h-14 w-auto" />
             <span className="text-xl font-semibold text-slate-800">
               {language === 'zh' ? '巴巴托斯有限公司' : 'Barbatos Limited'}
             </span>
