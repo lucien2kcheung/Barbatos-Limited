@@ -19,13 +19,13 @@ export function About() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Business meeting"
+              src="/about-hk-market.jpg"
+              alt="Hong Kong market"
               className="rounded-lg shadow-lg h-64 w-full object-cover"
             />
             <img
-              src="https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Hong Kong business district"
+              src="/about-medical-supplies.jpg"
+              alt="Medical supplies storage"
               className="rounded-lg shadow-lg h-64 w-full object-cover mt-8"
             />
           </div>

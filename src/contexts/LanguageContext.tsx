@@ -24,9 +24,9 @@ const translations = {
     hero_cta: 'Learn More',
 
     about_title: 'About Us',
-    about_text_1: 'Barbatos Limited is a private equity investment firm focused on partnering with small and medium-sized enterprises in Hong Kong.',
-    about_text_2: 'Our mission is to identify promising SMEs, provide strategic capital and operational support, and help them achieve their full potential.',
-    about_text_3: 'With deep expertise across various industries and a commitment to long-term partnerships, we work closely with management teams to drive sustainable growth and create lasting value.',
+    about_text_1: 'Barbatos Limited is a permanent holding company dedicated to long-term partnerships with leading small and medium-sized enterprises in Hong Kong.',
+    about_text_2: 'We seek out high-potential SMEs, provide patient capital and hands-on operational support, and work alongside owners and management teams to accelerate growth and unlock their full potential. We also specialise in succession solutions, stepping in to assume ownership and assemble new leadership teams when founders are ready to transition.',
+    about_text_3: 'Drawing on deep cross-sector expertise and a strong commitment to enduring partnerships, we collaborate closely with our portfolio companies to drive sustainable growth and build enduring value.',
 
     philosophy_title: 'Investment Philosophy',
     philosophy_subtitle: 'Our Approach to Value Creation',
@@ -75,9 +75,9 @@ const translations = {
     hero_cta: '了解更多',
 
     about_title: '關於我們',
-    about_text_1: 'Barbatos Limited 是一家專注於與香港中小企業合作的私募股權投資公司。',
-    about_text_2: '我們的使命是發掘具潛力的中小企業，提供策略性資本和營運支援，協助他們發揮最大潛力。',
-    about_text_3: '憑藉跨行業的深厚專業知識和對長期合作的承諾，我們與管理團隊緊密合作，推動可持續增長並創造長遠價值。',
+    about_text_1: 'Barbatos Limited 是一家永久控股公司，致力於與香港領先的中小企業建立長期合作夥伴關係。',
+    about_text_2: '我們尋找具高潛力的中小企業，提供耐心資本及實際的營運支援，與業主及管理團隊攜手合作，加速增長並釋放其全部潛力。我們亦專注於傳承方案，在創辦人準備交棒時，承接業務所有權並組建新的領導團隊。',
+    about_text_3: '憑藉深厚的跨行業專業知識及對長遠合作夥伴關係的堅定承諾，我們與投資組合公司緊密合作，推動可持續增長並創造長遠價值。',
 
     philosophy_title: '投資理念',
     philosophy_subtitle: '我們的價值創造方式',
