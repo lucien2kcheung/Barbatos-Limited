@@ -1,4 +1,4 @@
-import { Calendar, MapPin, FolderOpen, ExternalLink } from 'lucide-react';
+import { Calendar, MapPin, FolderOpen, ExternalLink, DollarSign } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Portfolio() {
@@ -54,6 +54,10 @@ export function Portfolio() {
                 <FolderOpen className="h-4 w-4 text-slate-500" />
                 <span>{language === 'en' ? 'Healthcare' : '醫療保健'}</span>
               </div>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <DollarSign className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? '100% Equity Investment' : '100% 股權投資'}</span>
+              </div>
             </div>
           </div>
 
@@ -83,6 +87,10 @@ export function Portfolio() {
               <div className="flex items-center gap-2 text-sm text-slate-600">
                 <FolderOpen className="h-4 w-4 text-slate-500" />
                 <span>{language === 'en' ? 'Logistics' : '物流'}</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <DollarSign className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? 'Convertible Loan' : '可轉換貸款'}</span>
               </div>
             </div>
           </div>

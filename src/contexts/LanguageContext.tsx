@@ -90,7 +90,7 @@ const translations = {
 
     portfolio_title: '投資組合',
     portfolio_subtitle: '我們投資及合作的公司',
-    portfolio_company_1: 'Clinicon Medical Limited',
+    portfolio_company_1: '健力醫療器材有限公司',
     portfolio_company_2: '敬請期待',
 
     team_title: '我們的團隊',
