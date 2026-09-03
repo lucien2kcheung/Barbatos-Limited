@@ -14,7 +14,7 @@ export function Portfolio() {
           <p className="text-xl text-slate-600">{t('portfolio_subtitle')}</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="p-8 rounded-lg border-2 border-slate-200 bg-white hover:border-slate-300 transition-all hover:shadow-lg">
             <div className="flex items-center justify-between mb-6">
               <div className="w-20 h-20 rounded-full overflow-hidden bg-white border border-slate-200 flex items-center justify-center">
@@ -91,6 +91,52 @@ export function Portfolio() {
               <div className="flex items-center gap-2 text-sm text-slate-600">
                 <DollarSign className="h-4 w-4 text-slate-500" />
                 <span>{language === 'en' ? 'Convertible Loan' : '可轉換貸款'}</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-8 rounded-lg border-2 border-slate-200 bg-white hover:border-slate-300 transition-all hover:shadow-lg">
+            <div className="flex items-center justify-between mb-6">
+              <div className="w-20 h-20 rounded-full overflow-hidden bg-white border border-slate-200 flex items-center justify-center">
+                <img
+                  src="/Vitas_logo.jpg"
+                  alt="Vitas Limited"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <a
+                href="https://vitas.com.hk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors"
+              >
+                <ExternalLink className="h-5 w-5" />
+              </a>
+            </div>
+            <h3 className="text-2xl font-bold mb-4 text-slate-900">
+              {t('portfolio_company_3')}
+            </h3>
+            <p className="leading-relaxed text-slate-700 mb-6">
+              {language === 'en'
+                ? 'A French-made cosmetic gel for external massage, formulated and manufactured in France by a cosmetics producer operating to EU GMP standards. Its clean, high-performance blend of grapeseed, niaouli and eucalyptus is made without harmful toxins. Trusted by customers in Hong Kong since 2003, it is available city-wide at Watsons and Mannings.'
+                : '一款法國製造的外用按摩美容凝膠，由符合歐盟GMP標準的化妝品製造商在法國研製及生產。其潔淨高效的葡萄籽、白千層及尤加利配方，不含有害毒素。自2003年起深受香港顧客信賴，於屈臣氏及萬寧全城有售。'}
+            </p>
+            <div className="border-t border-slate-200 pt-4 space-y-2">
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <Calendar className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? 'September 2026' : '2026年9月'}</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <MapPin className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? 'Hong Kong' : '香港'}</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <FolderOpen className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? 'Consumer' : '消費品'}</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <DollarSign className="h-4 w-4 text-slate-500" />
+                <span>{language === 'en' ? '100% Equity Investment' : '100% 股權投資'}</span>
               </div>
             </div>
           </div>
