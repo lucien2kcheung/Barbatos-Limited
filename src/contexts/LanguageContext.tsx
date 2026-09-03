@@ -41,6 +41,7 @@ const translations = {
     portfolio_subtitle: 'Companies we have invested in and partnered with',
     portfolio_company_1: 'Clinicon Medical Limited',
     portfolio_company_2: 'Coming Soon',
+    portfolio_company_3: 'Vitas Limited',
 
     team_title: 'Our Team',
     team_subtitle: 'Experienced professionals with deep industry knowledge',
@@ -92,6 +93,7 @@ const translations = {
     portfolio_subtitle: '我們投資及合作的公司',
     portfolio_company_1: '健力醫療器材有限公司',
     portfolio_company_2: '敬請期待',
+    portfolio_company_3: '紓適寧有限公司',
 
     team_title: '我們的團隊',
     team_subtitle: '擁有深厚行業知識的資深專業人員',
