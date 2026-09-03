@@ -10,8 +10,8 @@ export function Team() {
       role: language === 'en' ? 'Managing Partner' : '執行合夥人',
       image: '/WhatsApp_Image_2025-04-10_at_15.26.09.jpeg',
       bio: language === 'en'
-        ? 'Lucien is a Managing Partner & Co-Founder at Barbatos Limited.\n\nPrior to Barbatos, Lucien was an Executive Director and founding investment team member at Keyrock Capital Management in Hong Kong.\n\nBefore Keyrock, Lucien was an Investment Professional at Castik Capital Partners in Munich. Lucien started his career in investment banking with Citi in London.\n\nLucien holds a B.Sc. in Economics and Management from the University of Bristol.'
-        : 'Lucien 是巴巴托斯有限公司的共同創辦人兼執行合夥人。\n\n在加入 Barbatos 之前，Lucien 曾在香港 Keyrock Capital Management 擔任執行董事及創始投資團隊成員。\n\n在 Keyrock 之前，Lucien 曾在慕尼黑的 Castik Capital Partners 擔任投資專業人員。Lucien 的職業生涯始於倫敦花旗集團的投資銀行業務。\n\nLucien 持有布里斯托大學經濟及管理學理學士學位。',
+        ? 'Lucien is a Managing Partner & Co-Founder at Barbatos Limited.\n\nPrior to Barbatos, Lucien was an Executive Director and founding investment team member at Keyrock Capital Management in Hong Kong, a fundamental long-short equities hedge fund focused on Asia.\n\nBefore Keyrock, Lucien was an Investment Manager (VP) at Castik Capital Partners in Munich, a private equity manager with over EUR5 billion in AUM. Lucien started his career in investment banking at Citigroup in London.\n\nLucien holds a B.Sc. in Economics and Management from the University of Bristol and was educated at Winchester College.'
+        : 'Lucien 是巴巴托斯有限公司的共同創辦人兼執行合夥人。\n\n在加入 Barbatos 之前，Lucien 曾在香港 Keyrock Capital Management 擔任執行董事及創始投資團隊成員，該公司是一家專注於亞洲的基本面多空股票對沖基金。\n\n在 Keyrock 之前，Lucien 曾在慕尼黑的 Castik Capital Partners 擔任投資經理（副總裁），該公司是一家管理資產超過50億歐元的私募股權公司。Lucien 的職業生涯始於倫敦花旗集團的投資銀行業務。\n\nLucien 持有布里斯托大學經濟及管理學理學士學位，並曾就讀於溫徹斯特公學。',
       linkedin: 'https://www.linkedin.com/in/luciencheung',
       email: 'lucien@barbatos.ltd'
     },
